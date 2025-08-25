@@ -1,8 +1,8 @@
 # CS-683
 ## Task-1
 ### Task-1a
-results
- Unrolling 
+
+Unrolling 
 | Unroll Factor | Matrix Size | Average Speedup | Average L1 MPKI | Average MPKI (LLC) |
 | :------------ | :---------- | :-------------- | :-------------- | :----------------- |
 | 0             | 256         | 1.6354          | 29.1108         | 0.0038             |
@@ -24,7 +24,7 @@ results
 | 64            | 512         | 2.0164          | 16.9148         | 0.0062             |
 | 64            | 1024        | 2.8603          | 16.9976         | 1.7475             |
 
-####Unrolling+reordering
+Unrolling+reordering
 
 | Unroll Factor | Matrix Size | Average Speedup | Average L1 MPKI | Average MPKI (LLC) |
 | :------------ | :---------- | :-------------- | :-------------- | :----------------- |
@@ -44,7 +44,7 @@ results
 | 64            | 512         | 3.4187          | 16.2571         | 0.0032             |
 | 64            | 1024        | 6.1624          | 16.3364         | 0.0132             |
 
-####Reordering
+Reordering
 
 | Unroll Factor | Matrix Size | Average Speedup | Average L1 MPKI | Average MPKI (LLC) |
 | :------------ | :---------- | :-------------- | :-------------- | :----------------- |
